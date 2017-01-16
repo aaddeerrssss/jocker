@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A852CC501E12C33E007B7330 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852CC4F1E12C33E007B7330 /* ViewController3.swift */; };
 		B82D9E271E05583100A7E5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E261E05583100A7E5F1 /* AppDelegate.swift */; };
 		B82D9E291E05583100A7E5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E281E05583100A7E5F1 /* ViewController.swift */; };
 		B82D9E2C1E05583100A7E5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82D9E2A1E05583100A7E5F1 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		B82D9E311E05583100A7E5F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82D9E2F1E05583100A7E5F1 /* LaunchScreen.storyboard */; };
 		B82D9E3C1E05583100A7E5F1 /* JockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E3B1E05583100A7E5F1 /* JockerTests.swift */; };
 		B82D9E471E05583100A7E5F1 /* JockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E461E05583100A7E5F1 /* JockerUITests.swift */; };
+		B82D9E551E055BBC00A7E5F1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E541E055BBC00A7E5F1 /* ViewController2.swift */; };
+		B87FCF6A1E06BFC10025BAD3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FCF691E06BFC10025BAD3 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A852CC4F1E12C33E007B7330 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		B82D9E231E05583100A7E5F1 /* Jocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82D9E261E05583100A7E5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B82D9E281E05583100A7E5F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		B82D9E421E05583100A7E5F1 /* JockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82D9E461E05583100A7E5F1 /* JockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JockerUITests.swift; sourceTree = "<group>"; };
 		B82D9E481E05583100A7E5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82D9E541E055BBC00A7E5F1 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B87FCF691E06BFC10025BAD3 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				B82D9E261E05583100A7E5F1 /* AppDelegate.swift */,
 				B82D9E281E05583100A7E5F1 /* ViewController.swift */,
+				B82D9E541E055BBC00A7E5F1 /* ViewController2.swift */,
+				A852CC4F1E12C33E007B7330 /* ViewController3.swift */,
+				B87FCF691E06BFC10025BAD3 /* File.swift */,
 				B82D9E2A1E05583100A7E5F1 /* Main.storyboard */,
 				B82D9E2D1E05583100A7E5F1 /* Assets.xcassets */,
 				B82D9E2F1E05583100A7E5F1 /* LaunchScreen.storyboard */,
@@ -193,13 +202,17 @@
 				TargetAttributes = {
 					B82D9E221E05583100A7E5F1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BJ8RU8C34V;
+						LastSwiftMigration = 0820;
 					};
 					B82D9E361E05583100A7E5F1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = B82D9E221E05583100A7E5F1;
 					};
 					B82D9E411E05583100A7E5F1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = B82D9E221E05583100A7E5F1;
 					};
 				};
@@ -256,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A852CC501E12C33E007B7330 /* ViewController3.swift in Sources */,
 				B82D9E291E05583100A7E5F1 /* ViewController.swift in Sources */,
+				B87FCF6A1E06BFC10025BAD3 /* File.swift in Sources */,
 				B82D9E271E05583100A7E5F1 /* AppDelegate.swift in Sources */,
+				B82D9E551E055BBC00A7E5F1 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +415,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJ8RU8C34V;
 				INFOPLIST_FILE = Jocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdasd.Jocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -410,10 +428,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJ8RU8C34V;
 				INFOPLIST_FILE = Jocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdasd.Jocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdasd.JockerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jocker.app/Jocker";
 			};
 			name = Debug;
@@ -437,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdasd.JockerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jocker.app/Jocker";
 			};
 			name = Release;
@@ -448,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdasd.JockerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Jocker;
 			};
 			name = Debug;
@@ -459,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdasd.JockerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Jocker;
 			};
 			name = Release;
@@ -482,6 +506,7 @@
 				B82D9E4D1E05583100A7E5F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B82D9E4E1E05583100A7E5F1 /* Build configuration list for PBXNativeTarget "JockerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				B82D9E501E05583100A7E5F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B82D9E511E05583100A7E5F1 /* Build configuration list for PBXNativeTarget "JockerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +524,7 @@
 				B82D9E531E05583100A7E5F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
